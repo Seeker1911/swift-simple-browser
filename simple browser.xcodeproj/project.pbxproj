@@ -14,6 +14,8 @@
 		240E760C1D7E003600B72F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240E760A1D7E003600B72F7F /* LaunchScreen.storyboard */; };
 		240E76171D7E003700B72F7F /* simple_browserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E76161D7E003700B72F7F /* simple_browserTests.swift */; };
 		240E76221D7E003700B72F7F /* simple_browserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E76211D7E003700B72F7F /* simple_browserUITests.swift */; };
+		240E76311D7E18A900B72F7F /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E762F1D7E18A900B72F7F /* launch.png */; };
+		240E76321D7E18A900B72F7F /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E76301D7E18A900B72F7F /* launch@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		240E761D1D7E003700B72F7F /* simple browserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple browserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		240E76211D7E003700B72F7F /* simple_browserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_browserUITests.swift; sourceTree = "<group>"; };
 		240E76231D7E003700B72F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240E762F1D7E18A900B72F7F /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		240E76301D7E18A900B72F7F /* launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				240E76081D7E003600B72F7F /* Assets.xcassets */,
 				240E760A1D7E003600B72F7F /* LaunchScreen.storyboard */,
 				240E760D1D7E003600B72F7F /* Info.plist */,
+				240E762F1D7E18A900B72F7F /* launch.png */,
+				240E76301D7E18A900B72F7F /* launch@2x.png */,
 			);
 			path = "simple browser";
 			sourceTree = "<group>";
@@ -232,9 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240E76311D7E18A900B72F7F /* launch.png in Resources */,
 				240E760C1D7E003600B72F7F /* LaunchScreen.storyboard in Resources */,
 				240E76091D7E003600B72F7F /* Assets.xcassets in Resources */,
 				240E76071D7E003600B72F7F /* Main.storyboard in Resources */,
+				240E76321D7E18A900B72F7F /* launch@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
